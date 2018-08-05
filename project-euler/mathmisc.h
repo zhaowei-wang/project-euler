@@ -90,4 +90,14 @@ void print(const T& cont) {
     std::cout << '\n';
 }
 
+u_long nchoosek(u_long n, u_long k)
+{
+    u_long ret = 1;
+    for (u_long i = 1; i <= k; ++i) {
+        ret *= (n + 1 - i);
+        ret /= i;
+    }
+    return ret;
+}
+
 #endif /* mathmisc_h */

@@ -10,10 +10,10 @@
 #include <vector>
 #include <unordered_map>
 
-#include "problem14_2.h"
+#include "problem15.h"
 
 int main(int argc, const char * argv[]) {
-    problem *p = new problem14_2();
+    problem *p = new problem15();
     
     clock_t t = clock();
     p->run();
