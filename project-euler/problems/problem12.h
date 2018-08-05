@@ -12,8 +12,6 @@
 #import "problem.h"
 #include "mathmisc.h"
 
-
-
 class problem12 : public problem
 {
 public:

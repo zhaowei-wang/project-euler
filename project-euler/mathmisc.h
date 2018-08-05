@@ -82,4 +82,12 @@ int number_of_factors(std::vector<int> pf)
     return num_factors;
 }
 
+template<typename T>
+void print(const T& cont) {
+    for (auto const& x : cont) {
+        std::cout << x << " ";
+    }
+    std::cout << '\n';
+}
+
 #endif /* mathmisc_h */
